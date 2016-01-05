@@ -1,3 +1,77 @@
 // Place all the styles related to the companyhomepage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100px;
+}
+.row {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    max-width: 1280px;
+    width: 100%;
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.circle.red {
+    background: #FF4081;
+}
+.circle.green {
+    background: #28b11c;
+}
+.circle {
+    width: 70%;
+    height: 0;
+    padding-bottom: 70%;
+    border-radius: 50%;
+    background: #03A9F4;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.circle:hover {
+    cursor: pointer;
+    -moz-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    transform:scale(1.2);
+}
+.circle i {
+    position: absolute;
+    font-size: 48px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+h4 {
+    color: #424242;
+    font-weight: 300;
+    margin: 20px 0;
+    font-size: 23px;
+}
+
+p {
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+}
