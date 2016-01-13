@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  resources :barcodes
+  resources :products
+  resources :companies
 get "/", to:"companyhomepage#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
