@@ -18,3 +18,88 @@
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+html, body {
+  background-repeat: repeat;
+  background-image: image-url("bg.png");
+  height: 100%;
+}
+.logo {
+  height: 60px;
+  width: 140px;
+  background-color: #888e90;
+  float: left;
+}
+.navbar {
+  padding-top: 10px;
+  ul li {
+    float: right;
+    display: inline;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #4f9ec1;
+    text-align: center;
+    font-size: 1.5em;
+    padding-right: 15px;
+    padding-left: 15px;
+
+  }
+  ul li:hover {
+    background-color: #72abc4;
+    cursor: pointer;
+  }
+  .active {
+    background-color: #72abc4;
+  }
+}
+#main {
+  padding-bottom: 150px;
+}
+#wrapper-out {
+  min-height: 100%;
+  position: relative;
+}
+#footer {
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  .flip-img {
+    height: 150px;
+    width: 150px;
+    position: relative;
+  }
+  .img-front {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-image: image-url("angel.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    backface-visibility:hidden;
+		transition:all .5s;
+    // animation:milk-move 3s linear forwards;
+  }
+  .img-back {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-image: image-url("evil.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    backface-visibility:hidden;
+		transition:all .5s;
+		transform:perspective(1000px)rotateY(180deg);
+  }
+  .flip-img:hover .img-front {
+		transform:perspective(1000px)rotateY(180deg);
+	}
+	.flip-img:hover .img-back {
+		transform:perspective(1000px)rotateY(360deg);
+	}
+  @keyframes milk-move {
+    0%{transform:translate(0,0);}
+    50%{transform:translate(10px,0);}
+    100%{transform:translate(0,0);}
+  }
+}

@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+#mini image
+gem 'mini_magick'
 # Font-awesome
 gem 'font-awesome-sass'
 # Bootstrap

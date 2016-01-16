@@ -1,8 +1,32 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Products</h1>
+<div class="header">
+  <div class="logo"></div>
+  <div class="navbar">
+    <ul>
+      <li id="news-bt">新聞 News</li>
+      <li class="active" id="product-bt">商品 Product</li>
+      <li id="company-bt">企業 Company</li>
+    </ul>
+  </div>
+</div>
 
-<table>
+<div id="product-contents">
+
+  <% @products.each do |product| %>
+  <div class="product-box">
+    <div class="img-box">
+      <%= image_tag product.photo.prod_min_img %>
+    </div>
+    <div class="text-box">
+      <%= product.name %>
+    </div>
+  </div>
+  <% end %>
+
+</div>
+
+<!-- <table>
   <thead>
     <tr>
       <th>Name</th>
@@ -15,14 +39,14 @@
     <% @products.each do |product| %>
       <tr>
         <td><%= product.name %></td>
-        <td><%= product.photo %></td>
+        <td><%= image_tag product.photo.prod_min_img %></td>
         <td><%= link_to 'Show', product %></td>
         <td><%= link_to 'Edit', edit_product_path(product) %></td>
         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
-</table>
+</table> -->
 
 <br>
 

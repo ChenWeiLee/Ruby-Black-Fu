@@ -8,10 +8,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="container">
+  <div id="wrapper-out">
+    <div class="container" id="main">
+      <%= yield %>
+    </div>
 
-<%= yield %>
+  <div id="footer">
+    <div class="flip-img">
+      <div class="img-front"></div>
+      <div class="img-back"></div>
+    </div>
+  </div>
 
-</div>
+  </div>
 </body>
 </html>
