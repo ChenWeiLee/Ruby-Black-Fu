@@ -1,0 +1,45 @@
+// Place all the styles related to the News controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.n-title {
+  font-size: 36px;
+  font-weight: bolder;
+}
+.n-from {
+  float: right;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+.n-date {
+  float: right;
+  padding-left: 25px;
+  font-style: italic;
+  padding-top: 20px;
+}
+.fow a, .fow a:hover {
+  color: white;
+  text-decoration: none;
+}
+#n-cont {
+  float:left;
+  display: inline;
+  width: 75%;
+  margin-left: 15px;
+}
+#n-cont:first-letter {
+  float:left;
+  font-size:280%;
+  font-weight:bold;
+  margin-right:3px;
+}
+.news-content {
+  width: 100%;
+}
+.n-img {
+  float: left;
+}
+.width-full {
+  float: right;
+  width: 300px;
+  text-align: right;
+}

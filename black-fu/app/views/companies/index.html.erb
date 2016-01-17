@@ -1,8 +1,33 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Companies</h1>
+<div class="header">
+  <div id="logo"></div>
+  <div class="navbar">
+    <ul>
+      <li id="news-bt">新聞 News</li>
+      <li id="product-bt">商品 Product</li>
+      <li class="active" id="company-bt">企業 Company</li>
+    </ul>
+  </div>
+</div>
 
-<table>
+<div id="company-contents">
+  <% @companies.each do |company| %>
+  <div class="company-box">
+    <div class="name-box">
+      <%= company.name %>
+    </div>
+    <div class="logo-box">
+      <%= image_tag company.logo.prod_min_img %>
+    </div>
+    <div class="ceo-box">
+      <%= company.ceo %>
+    </div>
+  </div>
+  <% end %>
+</div>
+
+<!-- <table>
   <thead>
     <tr>
       <th>Name</th>
@@ -17,14 +42,14 @@
       <tr>
         <td><%= company.name %></td>
         <td><%= company.ceo %></td>
-        <td><%= company.logo %></td>
+        <td><%= image_tag company.logo.prod_min_img %></td>
         <td><%= link_to 'Show', company %></td>
         <td><%= link_to 'Edit', edit_company_path(company) %></td>
         <td><%= link_to 'Destroy', company, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
-</table>
+</table> -->
 
 <br>
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160113163354) do
+ActiveRecord::Schema.define(version: 20160117072353) do
 
   create_table "barcodes", force: :cascade do |t|
     t.string   "no"
@@ -23,6 +23,17 @@ ActiveRecord::Schema.define(version: 20160113163354) do
     t.string   "name"
     t.string   "ceo"
     t.string   "logo"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "news", force: :cascade do |t|
+    t.string   "title"
+    t.string   "content"
+    t.string   "nimg"
+    t.string   "postdate"
+    t.string   "from"
+    t.string   "url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

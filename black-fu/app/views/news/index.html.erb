@@ -1,0 +1,46 @@
+<!-- <p id="notice"><%= notice %></p> -->
+
+<div class="header">
+  <div id="logo"></div>
+  <div class="navbar">
+    <ul>
+      <li class="active" id="news-bt">新聞 News</li>
+      <li id="product-bt">商品 Product</li>
+      <li id="company-bt">企業 Company</li>
+    </ul>
+  </div>
+</div>
+
+<table class="table table-hover table-vl">
+  <!-- <thead>
+    <tr>
+      <th>Title</th>
+      <th>Content</th>
+      <th>Nimg</th>
+      <th>Postdate</th>
+      <th>From</th>
+      <th>Url</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead> -->
+
+  <tbody class="table-vl">
+    <% @news.each do |news| %>
+      <tr>
+        <td style="vertical-align: middle; text-align: center;" ><%= image_tag news.nimg.prod_min_img %></td>
+        <td style="vertical-align: middle;"><h3><%= news.title %></h3></td>
+        <!-- <td><%= news.content %></td> -->
+        <td style="vertical-align: middle;"><%= news.postdate %></td>
+        <td style="vertical-align: middle;"><%= news.from %></td>
+        <!-- <td><%= news.url %></td> -->
+        <td style="vertical-align: middle;"><%= link_to '詳細內容', news %></td>
+        <!-- <td><%= link_to 'Edit', edit_news_path(news) %></td> -->
+        <!-- <td><%= link_to 'Destroy', news, method: :delete, data: { confirm: 'Are you sure?' } %></td> -->
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New News', new_news_path %>

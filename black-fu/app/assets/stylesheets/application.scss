@@ -149,11 +149,5 @@ html, body {
     float: right;
     right: 750px;
     top: 60px;
-    animation: tree-move 1.2s infinite;
-  }
-  @keyframes tree-move {
-    0%{transform:translate(0,0);}
-    60%{transform:translate(0,-5px);}
-    100%{transform:translate(0,0);}
   }
 }

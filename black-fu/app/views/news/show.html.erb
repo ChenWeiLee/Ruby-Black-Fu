@@ -1,0 +1,27 @@
+<!-- <p id="notice"><%= notice %></p> -->
+<div class="header">
+  <div id="logo"></div>
+  <div class="navbar">
+    <ul>
+      <li class="active" id="news-bt">新聞 News</li>
+      <li id="product-bt">商品 Product</li>
+      <li id="company-bt">企業 Company</li>
+    </ul>
+  </div>
+</div>
+
+<span class="n-title"><%= @news.title %></span>
+<span class="n-date"><%= @news.postdate %></span>
+<span class="n-from">出處：<b><%= @news.from %></b></span>
+
+<div class="news-content">
+  <span class="img-thumbnail n-img"><%= image_tag @news.nimg.news_min_img %></span>
+  <p id="n-cont"><%= @news.content %></p>
+</div>
+
+<div class="width-full">
+  <%= link_to '資料來源', @news.url, :target => "_blank" %>
+</div>
+
+<!-- <%= link_to 'Edit', edit_news_path(@news) %> | -->
+<button type="button" class="btn btn-info fow"><%= link_to '回列表', news_index_path %></button>

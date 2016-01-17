@@ -35,6 +35,12 @@ class ProductsPhotoUploader < CarrierWave::Uploader::Base
   version :prod_min_img do
       process :resize_to_fit => [150, 150]
   end
+  version :news_min_img do
+    process :resize_to_fit => [200, 200]
+  end
+  version :news_big_img do
+    process :resize_to_fit => [350, 300]
+  end
   # version :thumb do
   #   process :resize_to_fit => [50, 50]
   # end

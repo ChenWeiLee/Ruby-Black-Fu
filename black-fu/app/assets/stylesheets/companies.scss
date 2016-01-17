@@ -1,3 +1,27 @@
 // Place all the styles related to the Companies controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#company-contents {
+  width: 1000px;
+  .company-box {
+    width: 250px;
+    height: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    float: left;
+    .name-box {
+      width: 100%;
+      height: 15%;
+    }
+    .logo-box {
+      width: 100%;
+      height: 70%;
+    }
+    .ceo-box {
+      color: #d15c5c;
+      width: 100%;
+      height: 15%;
+    }
+  }
+}

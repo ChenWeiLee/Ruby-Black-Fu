@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :news
   resources :barcodes
   resources :products
   resources :companies
