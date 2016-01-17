@@ -19,6 +19,9 @@
 //= require bootstrap-sprockets
 $(document).ready(function() {
 
+    $('#logo').click(function() {
+      window.location.href = "/";
+    })
     $('#company_page').click(function() {
       window.location.href = "/companies";
     })

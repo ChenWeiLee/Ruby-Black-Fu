@@ -19,18 +19,23 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 html, body {
-  background-repeat: repeat;
-  background-image: image-url("bg.png");
+  // background-repeat: repeat;
+  // background-image: image-url("bg.png");
   height: 100%;
 }
-.logo {
+#logo {
   height: 60px;
-  width: 140px;
+  width: 150px;
   background-color: #888e90;
   float: left;
 }
+#logo:hover {
+  cursor: pointer;
+}
 .navbar {
   padding-top: 10px;
+  padding-left: 100px;
+  display: inline-block;
   ul li {
     float: right;
     display: inline;
@@ -64,10 +69,14 @@ html, body {
   position: absolute;
   bottom: 0;
   width: 100%;
+  background-image: image-url("floor.png");
+  background-size: 100% 100%;
   .flip-img {
     height: 150px;
     width: 150px;
     position: relative;
+    float: right;
+    right: 40px;
   }
   .img-front {
     position: absolute;
@@ -78,7 +87,6 @@ html, body {
     background-repeat: no-repeat;
     backface-visibility:hidden;
 		transition:all .5s;
-    // animation:milk-move 3s linear forwards;
   }
   .img-back {
     position: absolute;
@@ -97,9 +105,55 @@ html, body {
 	.flip-img:hover .img-back {
 		transform:perspective(1000px)rotateY(360deg);
 	}
-  @keyframes milk-move {
+  .pudding-img {
+    position: relative;
+    background-image: image-url("pudding.png");
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    float: right;
+    right: 300px;
+    top: 40px;
+    animation: pudding-move 2s linear infinite;
+  }
+  @keyframes pudding-move {
     0%{transform:translate(0,0);}
-    50%{transform:translate(10px,0);}
+    30%{transform:translate(20px,-10px);}
+    60%{transform:translate(-10px,-5px);}
+    100%{transform:translate(0,0);}
+  }
+  .c-img {
+    position: relative;
+    background-image: image-url("c.png");
+    background-size: contain;
+    width: 80px;
+    height: 140px;
+    float: right;
+    right: 600px;
+    top: 0px;
+    animation: c-move 2s linear infinite;
+  }
+  @keyframes c-move {
+    0%{transform:translate(0,0);}
+    25%{transform:translate(-15px,-15px);}
+    43%{transform:translate(5px,-3px);}
+    76%{transform:translate(10px,8px);}
+    100%{transform:translate(0,0);}
+  }
+  .tree-img {
+    position: relative;
+    background-image: image-url("tree.png");
+    background-size: contain;
+    width: 150px;
+    height: 70px;
+    float: right;
+    right: 750px;
+    top: 60px;
+    animation: tree-move 1.2s infinite;
+  }
+  @keyframes tree-move {
+    0%{transform:translate(0,0);}
+    60%{transform:translate(0,-5px);}
     100%{transform:translate(0,0);}
   }
 }
