@@ -18,22 +18,22 @@
 //= require jquery
 //= require bootstrap-sprockets
 $(document).ready(function() {
+  var homePage = "/";
+  var companyPage = "/companies";
+  var newsPage = "/news";
+  var productPage = "/products";
 
     $('#logo').click(function() {
-      window.location.href = "/";
-    })
-    $('#company_page').click(function() {
-      window.location.href = "/companies";
-    })
-    $('#products_page').click(function() {
-      window.location.href = "/products";
-    })
-    $('#news_page').click(function() {
-      window.location.href = "/news";
+      window.location.href = homePage;
     })
 
-    /* Product page */
     $('#company-bt').click(function() {
-      window.location.href = "/companies";
+      window.location.href = companyPage;
+    })
+    $('#news-bt').click(function() {
+      window.location.href = newsPage;
+    })
+    $('#product-bt').click(function() {
+      window.location.href = productPage;
     })
 });

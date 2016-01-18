@@ -35125,3 +35125,757 @@ Started GET "/assets/c-e640b6b699b0eaaf607c0107da6dc1c0432a46954ee7bd86aed119027
 
 
 Started GET "/assets/evil-5d77f0b48b009557a1f5fa65797c7fdcb549d977c8c9b130e31102b57d70ea53.png" for ::1 at 2016-01-17 17:50:30 +0800
+
+
+Started GET "/" for ::1 at 2016-01-18 23:49:47 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CompanyhomepageController#index as HTML
+  Rendered companyhomepage/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 470ms (Views: 460.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-18 23:50:58 +0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.6ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 230ms (Views: 223.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products" for ::1 at 2016-01-18 23:51:12 +0800
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 202ms (Views: 197.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-18 23:51:13 +0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 156ms (Views: 155.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-18 23:51:23 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (1.8ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 281ms (Views: 269.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for ::1 at 2016-01-18 23:51:34 +0800
+Processing by CompanyhomepageController#index as HTML
+  Rendered companyhomepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 152ms (Views: 151.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-01-18 23:52:16 +0800
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 203ms (Views: 201.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products" for ::1 at 2016-01-18 23:52:55 +0800
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 214ms (Views: 213.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products" for ::1 at 2016-01-18 23:53:24 +0800
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 201ms (Views: 200.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products" for ::1 at 2016-01-18 23:56:24 +0800
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 200ms (Views: 198.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products" for ::1 at 2016-01-18 23:56:47 +0800
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 205ms (Views: 204.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:02:25 +0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 156ms (Views: 154.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:02:25 +0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.2ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 161ms (Views: 160.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:09:00 +0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.3ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 291ms (Views: 289.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/companies.self-388531fdebaa9990d708f06713c46d99928a632b4e7eacbab7bab883a50279ac.css?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/companyhomepage.self-eca6415e254e59dd1d92fb1e75948918a51b3d743b7ce6c7bc75eed6412e0a23.css?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/news.self-3493d9b063aa87db6357ac0e6b4d2250be1c7f9bc91b13fe08e030810b7a1b6a.css?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/products.self-5493f677431606cdbc2e5ffc0f1a6501d96afca764ef13597fc2fc59b0500712.css?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/application.self-73d935ab598d78573299eaf15da899e3b915aa4d911dc73da006322dda445c44.css?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/barcodes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/news.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/companyhomepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/application.self-813e2b9efcc5d2466e0877c8b636439b9bf42b3b4497225f2be7af8b264fe99c.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/floor-35211001e6b5514be681b3136276a88ac33f906f39fa29785983a2c675035f25.png" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/pudding-515c3630efdc5e6cbfe3d4326ea21ba9e66a1ce9e493e0c72fd13d502dae3e4c.png" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/c-e640b6b699b0eaaf607c0107da6dc1c0432a46954ee7bd86aed1190274f80a85.png" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/angel-5e13e7b45edafb05eb32b640a37d2a1908d63730d4dfba83fd915cb9ee06d604.png" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/tree-5bf2933d34d6e299be14fba844c5ed246e686125751d14b0d7c70dd47656a80d.png" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/assets/evil-5d77f0b48b009557a1f5fa65797c7fdcb549d977c8c9b130e31102b57d70ea53.png" for ::1 at 2016-01-19 00:09:01 +0800
+
+
+Started GET "/" for ::1 at 2016-01-19 00:09:02 +0800
+Processing by CompanyhomepageController#index as HTML
+  Rendered companyhomepage/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 156ms (Views: 155.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for ::1 at 2016-01-19 00:09:02 +0800
+
+
+Started GET "/" for ::1 at 2016-01-19 00:09:57 +0800
+Processing by CompanyhomepageController#index as HTML
+  Rendered companyhomepage/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 159ms (Views: 158.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-19 00:09:57 +0800
+
+
+Started GET "/assets/companies.self-388531fdebaa9990d708f06713c46d99928a632b4e7eacbab7bab883a50279ac.css?body=1" for ::1 at 2016-01-19 00:09:57 +0800
+
+
+Started GET "/assets/companyhomepage.self-eca6415e254e59dd1d92fb1e75948918a51b3d743b7ce6c7bc75eed6412e0a23.css?body=1" for ::1 at 2016-01-19 00:09:57 +0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-19 00:09:57 +0800
+
+
+Started GET "/assets/news.self-3493d9b063aa87db6357ac0e6b4d2250be1c7f9bc91b13fe08e030810b7a1b6a.css?body=1" for ::1 at 2016-01-19 00:09:57 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-19 00:09:57 +0800
+
+
+Started GET "/assets/application.self-73d935ab598d78573299eaf15da899e3b915aa4d911dc73da006322dda445c44.css?body=1" for ::1 at 2016-01-19 00:09:57 +0800
+
+
+Started GET "/assets/products.self-5493f677431606cdbc2e5ffc0f1a6501d96afca764ef13597fc2fc59b0500712.css?body=1" for ::1 at 2016-01-19 00:09:57 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-19 00:09:57 +0800
+
+
+Started GET "/assets/companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:09:57 +0800
+
+
+Started GET "/assets/barcodes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:09:57 +0800
+
+
+Started GET "/assets/companyhomepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:09:57 +0800
+
+
+Started GET "/assets/news.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:09:57 +0800
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:09:57 +0800
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/application.self-813e2b9efcc5d2466e0877c8b636439b9bf42b3b4497225f2be7af8b264fe99c.js?body=1" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/c-e640b6b699b0eaaf607c0107da6dc1c0432a46954ee7bd86aed1190274f80a85.png" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/floor-35211001e6b5514be681b3136276a88ac33f906f39fa29785983a2c675035f25.png" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/evil-5d77f0b48b009557a1f5fa65797c7fdcb549d977c8c9b130e31102b57d70ea53.png" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/angel-5e13e7b45edafb05eb32b640a37d2a1908d63730d4dfba83fd915cb9ee06d604.png" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/pudding-515c3630efdc5e6cbfe3d4326ea21ba9e66a1ce9e493e0c72fd13d502dae3e4c.png" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/assets/tree-5bf2933d34d6e299be14fba844c5ed246e686125751d14b0d7c70dd47656a80d.png" for ::1 at 2016-01-19 00:09:58 +0800
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:09:59 +0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.5ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 257ms (Views: 255.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:10:00 +0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 151ms (Views: 150.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:10:03 +0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 154ms (Views: 153.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:10:04 +0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 149ms (Views: 147.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-19 00:10:05 +0800
+Processing by NewsController#index as HTML
+  [1m[35mNews Load (0.1ms)[0m  SELECT "news".* FROM "news"
+  Rendered news/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 162ms (Views: 161.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:10:07 +0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 154ms (Views: 153.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-19 00:10:09 +0800
+Processing by NewsController#index as HTML
+  [1m[35mNews Load (0.1ms)[0m  SELECT "news".* FROM "news"
+  Rendered news/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 157ms (Views: 156.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:10:10 +0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 160ms (Views: 158.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:10:13 +0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.2ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 153ms (Views: 152.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:10:13 +0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 165ms (Views: 164.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:10:13 +0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.2ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 176ms (Views: 175.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:10:14 +0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 166ms (Views: 165.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:10:15 +0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 217ms (Views: 216.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:11:28 +0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 306ms (Views: 304.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/application.self-73d935ab598d78573299eaf15da899e3b915aa4d911dc73da006322dda445c44.css?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/companies.self-388531fdebaa9990d708f06713c46d99928a632b4e7eacbab7bab883a50279ac.css?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/products.self-5493f677431606cdbc2e5ffc0f1a6501d96afca764ef13597fc2fc59b0500712.css?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/companyhomepage.self-eca6415e254e59dd1d92fb1e75948918a51b3d743b7ce6c7bc75eed6412e0a23.css?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/news.self-3493d9b063aa87db6357ac0e6b4d2250be1c7f9bc91b13fe08e030810b7a1b6a.css?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/barcodes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/companyhomepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/news.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/application.self-42923ab2561acef015311a179a049eb87987625fd62b57d34730baacd16968d6.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/floor-35211001e6b5514be681b3136276a88ac33f906f39fa29785983a2c675035f25.png" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/angel-5e13e7b45edafb05eb32b640a37d2a1908d63730d4dfba83fd915cb9ee06d604.png" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/pudding-515c3630efdc5e6cbfe3d4326ea21ba9e66a1ce9e493e0c72fd13d502dae3e4c.png" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/evil-5d77f0b48b009557a1f5fa65797c7fdcb549d977c8c9b130e31102b57d70ea53.png" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/tree-5bf2933d34d6e299be14fba844c5ed246e686125751d14b0d7c70dd47656a80d.png" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/assets/c-e640b6b699b0eaaf607c0107da6dc1c0432a46954ee7bd86aed1190274f80a85.png" for ::1 at 2016-01-19 00:11:29 +0800
+
+
+Started GET "/products" for ::1 at 2016-01-19 00:11:30 +0800
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 166ms (Views: 165.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-19 00:11:32 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.1ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 156ms (Views: 154.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:11:33 +0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 150ms (Views: 149.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products" for ::1 at 2016-01-19 00:11:35 +0800
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 160ms (Views: 158.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-19 00:11:36 +0800
+Processing by NewsController#index as HTML
+  [1m[35mNews Load (0.1ms)[0m  SELECT "news".* FROM "news"
+  Rendered news/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 156ms (Views: 155.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:11:41 +0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 149ms (Views: 148.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products" for ::1 at 2016-01-19 00:11:43 +0800
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 151ms (Views: 150.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/news" for ::1 at 2016-01-19 00:11:44 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.3ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 161ms (Views: 160.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-19 00:11:53 +0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 151ms (Views: 150.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-19 00:13:32 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.4ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 154ms (Views: 152.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/news/2" for ::1 at 2016-01-19 00:14:34 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mNews Load (0.2ms)[0m  SELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered news/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 164ms (Views: 153.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/news" for ::1 at 2016-01-19 00:14:49 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.1ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 169ms (Views: 167.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news/2" for ::1 at 2016-01-19 00:15:03 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mNews Load (0.1ms)[0m  SELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered news/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 165ms (Views: 164.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news/2" for ::1 at 2016-01-19 00:15:59 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mNews Load (0.1ms)[0m  [1mSELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered news/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 2506ms (Views: 2505.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/news.self-3c30e08cb9a73b580a50d5929404478a1ee51bacf3b48a3333034752a2758396.css?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/companyhomepage.self-eca6415e254e59dd1d92fb1e75948918a51b3d743b7ce6c7bc75eed6412e0a23.css?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/products.self-5493f677431606cdbc2e5ffc0f1a6501d96afca764ef13597fc2fc59b0500712.css?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/application.self-73d935ab598d78573299eaf15da899e3b915aa4d911dc73da006322dda445c44.css?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/companies.self-388531fdebaa9990d708f06713c46d99928a632b4e7eacbab7bab883a50279ac.css?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/barcodes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/companyhomepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/news.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/application.self-42923ab2561acef015311a179a049eb87987625fd62b57d34730baacd16968d6.js?body=1" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/floor-35211001e6b5514be681b3136276a88ac33f906f39fa29785983a2c675035f25.png" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/angel-5e13e7b45edafb05eb32b640a37d2a1908d63730d4dfba83fd915cb9ee06d604.png" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/pudding-515c3630efdc5e6cbfe3d4326ea21ba9e66a1ce9e493e0c72fd13d502dae3e4c.png" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/c-e640b6b699b0eaaf607c0107da6dc1c0432a46954ee7bd86aed1190274f80a85.png" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/tree-5bf2933d34d6e299be14fba844c5ed246e686125751d14b0d7c70dd47656a80d.png" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/assets/evil-5d77f0b48b009557a1f5fa65797c7fdcb549d977c8c9b130e31102b57d70ea53.png" for ::1 at 2016-01-19 00:16:02 +0800
+
+
+Started GET "/news" for ::1 at 2016-01-19 00:16:10 +0800
+Processing by NewsController#index as HTML
+  [1m[35mNews Load (0.5ms)[0m  SELECT "news".* FROM "news"
+  Rendered news/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 176ms (Views: 174.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/news/3" for ::1 at 2016-01-19 00:16:13 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mNews Load (0.1ms)[0m  [1mSELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered news/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 125ms (Views: 124.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-19 00:31:08 +0800
+Processing by NewsController#index as HTML
+  [1m[35mNews Load (0.2ms)[0m  SELECT "news".* FROM "news"
+  Rendered news/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 282ms (Views: 281.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/news" for ::1 at 2016-01-19 00:31:09 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.4ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 181ms (Views: 179.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-28b8bcf1b1206f462c9d077ae76194d760ca013424ede9763c18a38089bf0002.js?body=1" for ::1 at 2016-01-19 00:31:09 +0800
