@@ -26,35 +26,46 @@ html, body {
 #logo {
   height: 60px;
   width: 150px;
-  background-color: #888e90;
   float: left;
+  background-image: image-url("LOGO.png");
 }
 #logo:hover {
   cursor: pointer;
 }
+.title {
+  width: 535px;
+  height: 69px;
+  float: left;
+  background-image: image-url("title.png");
+}
 .navbar {
-  padding-top: 10px;
   padding-left: 100px;
   display: inline-block;
   ul li {
     float: right;
     display: inline;
-    width: 200px;
-    height: 50px;
-    line-height: 50px;
-    background-color: #4f9ec1;
+    // width: 200px;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    // height: 50px;
+    // line-height: 50px;
+    // background-color: #4f9ec1;
     text-align: center;
-    font-size: 1.5em;
-    padding-right: 15px;
-    padding-left: 15px;
+    // font-size: 1.5em;
+    font-size: 1.2em;
+    padding-right: 10px;
+    padding-left: 10px;
 
   }
   ul li:hover {
-    background-color: #72abc4;
+    // background-color: #72abc4;
     cursor: pointer;
+    font-weight: bolder;
   }
   .active {
-    background-color: #72abc4;
+    // background-color: #72abc4;
+    font-weight: bolder;
   }
 }
 #main {

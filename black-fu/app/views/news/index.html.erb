@@ -2,6 +2,7 @@
 
 <div class="header">
   <div id="logo"></div>
+  <div class="title"></div>
   <div class="navbar">
     <ul>
       <li class="active" id="news-bt">新聞 News</li>
@@ -11,7 +12,7 @@
   </div>
 </div>
 
-<table class="table table-hover table-vl">
+<table class="table table-hover news-list">
   <!-- <thead>
     <tr>
       <th>Title</th>
@@ -24,16 +25,19 @@
     </tr>
   </thead> -->
 
-  <tbody class="table-vl">
+  <tbody>
     <% @news.each do |news| %>
       <tr>
         <td style="vertical-align: middle; text-align: center;" ><%= image_tag news.nimg.prod_min_img %></td>
-        <td style="vertical-align: middle;"><h3><%= news.title %></h3></td>
+        <td style="vertical-align: middle;"><h4>
+          <!-- <%= news.title %> -->
+          <%= link_to news.title, news %>
+        </h4></td>
         <!-- <td><%= news.content %></td> -->
         <td style="vertical-align: middle;"><%= news.postdate %></td>
         <td style="vertical-align: middle;"><%= news.from %></td>
         <!-- <td><%= news.url %></td> -->
-        <td style="vertical-align: middle;"><%= link_to '詳細內容', news %></td>
+        <!-- <td style="vertical-align: middle;"><%= link_to '詳細內容', news %></td> -->
         <!-- <td><%= link_to 'Edit', edit_news_path(news) %></td> -->
         <!-- <td><%= link_to 'Destroy', news, method: :delete, data: { confirm: 'Are you sure?' } %></td> -->
       </tr>
