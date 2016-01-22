@@ -46741,3 +46741,1238 @@ Processing by NewsController#new as HTML
   Rendered news/_form.html.erb (29.6ms)
   Rendered news/new.html.erb within layouts/application (34.9ms)
 Completed 200 OK in 206ms (Views: 205.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/news/new" for ::1 at 2016-01-23 01:42:46 +0800
+Processing by NewsController#new as HTML
+  Rendered news/_form.html.erb (11.6ms)
+  Rendered news/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 188ms (Views: 186.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/companies.self-5d9ad452eb9adaa7e2ef6d4bf5c0849f9c97b40dc60b483a877fe565844f6c61.css?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/products.self-07889e1f39d3bbac3bab0ef246a2087fce825977282d5c742ebd57ba9e69eabe.css?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/companyhomepage.self-aac9e1bcc4af4d6d890cff431c30dad5503f5c72beb5db21685c438457f106e0.css?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/news.self-3c30e08cb9a73b580a50d5929404478a1ee51bacf3b48a3333034752a2758396.css?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/application.self-7c1d3b43bb862717ebaad925be0ee6c4e6c8b76399cc953ba01e8465c4f10b39.css?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/barcodes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/companyhomepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/news.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/application.self-28b8bcf1b1206f462c9d077ae76194d760ca013424ede9763c18a38089bf0002.js?body=1" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/floor-35211001e6b5514be681b3136276a88ac33f906f39fa29785983a2c675035f25.png" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/c-e640b6b699b0eaaf607c0107da6dc1c0432a46954ee7bd86aed1190274f80a85.png" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/evil-5d77f0b48b009557a1f5fa65797c7fdcb549d977c8c9b130e31102b57d70ea53.png" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/angel-5e13e7b45edafb05eb32b640a37d2a1908d63730d4dfba83fd915cb9ee06d604.png" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/tree-5bf2933d34d6e299be14fba844c5ed246e686125751d14b0d7c70dd47656a80d.png" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/pudding-515c3630efdc5e6cbfe3d4326ea21ba9e66a1ce9e493e0c72fd13d502dae3e4c.png" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started GET "/assets/icon_-40152a4ad5b5f574d5b4537d77718f4de17dd97ca6f31a91fa0c61003ab50fa2.png" for ::1 at 2016-01-23 01:42:46 +0800
+
+
+Started POST "/news" for ::1 at 2016-01-23 01:46:19 +0800
+Processing by NewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FWCBRXbDsTwl3577/OK5MuGpFPek9TRe1rz3Vl/EGTriUZj8CPzDkPr/wgRAPDkCuOtVf1VJUAY3HvUZP0NvTQ==", "news"=>{"title"=>"台南黑心食品加工場　過期豬製臘肉供餐廳用", "content"=>"台南市衞生局今天下午前往位於東區的德安百貨內一處食品加工場稽查，當場查獲大批逾期豬肉與魚卵，又發現廠商利用這些過期原料製成熟食，供應給集團旗下餐廳使用。\r\n衞生局根據市民舉報，前往位於東區德安百貨14樓的鮮洋食品公司稽查。該處並非售賣場，而是加工場。稽查人員發現該加工場相當髒亂，地上油漬與血水遍布，還傳出惡臭，之後稽查人員在冷凍庫內發現大批逾期食品原料。\r\n根據衞生局了解，鮮洋食品公司是台中精彩饗宴餐飲集團的子公司，該集團單在德安百貨內便開設有三間餐廳，包括上閤屋、大大茶樓及精彩火鍋。而據鮮洋食品公司員工表示，該加工場的製成品同時供應三該間餐廳使用。\r\n　\r\n稽查人員於現場查扣用來製作臘腸、臘肉及豬肝腸的五花肉已逾期四個月，而用來製作魚子醬的魚卵則逾期五個月。當局正追查該批逾期食品原料的來源，以及該些逾期食品是否曾供應給其他餐廳或賣給消費者食用。", "nimg"=>#<ActionDispatch::Http::UploadedFile:0x007ff5b778cc88 @tempfile=#<Tempfile:/var/folders/x5/1y8r01h50n1dpqq41zn4mt880000gn/T/RackMultipart20160123-80120-6qea9z.jpg>, @original_filename="new3.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"news[nimg]\"; filename=\"new3.jpg\"\r\nContent-Type: image/jpeg\r\n">, "postdate"=>"2016/01/18 21:50", "from"=>"on.cc東網專訊", "url"=>"http://hk.on.cc/tw/bkn/cnt/news/20160118/bkntw-20160118215024227-0118_04011_001.html"}, "commit"=>"Create News"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "news" ("title", "content", "nimg", "postdate", "from", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["title", "台南黑心食品加工場　過期豬製臘肉供餐廳用"], ["content", "台南市衞生局今天下午前往位於東區的德安百貨內一處食品加工場稽查，當場查獲大批逾期豬肉與魚卵，又發現廠商利用這些過期原料製成熟食，供應給集團旗下餐廳使用。\r\n衞生局根據市民舉報，前往位於東區德安百貨14樓的鮮洋食品公司稽查。該處並非售賣場，而是加工場。稽查人員發現該加工場相當髒亂，地上油漬與血水遍布，還傳出惡臭，之後稽查人員在冷凍庫內發現大批逾期食品原料。\r\n根據衞生局了解，鮮洋食品公司是台中精彩饗宴餐飲集團的子公司，該集團單在德安百貨內便開設有三間餐廳，包括上閤屋、大大茶樓及精彩火鍋。而據鮮洋食品公司員工表示，該加工場的製成品同時供應三該間餐廳使用。\r\n　\r\n稽查人員於現場查扣用來製作臘腸、臘肉及豬肝腸的五花肉已逾期四個月，而用來製作魚子醬的魚卵則逾期五個月。當局正追查該批逾期食品原料的來源，以及該些逾期食品是否曾供應給其他餐廳或賣給消費者食用。"], ["nimg", "new3.jpg"], ["postdate", "2016/01/18 21:50"], ["from", "on.cc東網專訊"], ["url", "http://hk.on.cc/tw/bkn/cnt/news/20160118/bkntw-20160118215024227-0118_04011_001.html"], ["created_at", "2016-01-22 17:46:20.069580"], ["updated_at", "2016-01-22 17:46:20.069580"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/news/4
+Completed 302 Found in 250ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/news/4" for ::1 at 2016-01-23 01:46:20 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mNews Load (0.2ms)[0m  [1mSELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered news/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 314ms (Views: 198.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 01:46:28 +0800
+Processing by NewsController#index as HTML
+  [1m[35mNews Load (0.2ms)[0m  SELECT "news".* FROM "news"
+  Rendered news/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 189ms (Views: 188.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/news/new" for ::1 at 2016-01-23 01:46:33 +0800
+Processing by NewsController#new as HTML
+  Rendered news/_form.html.erb (6.3ms)
+  Rendered news/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 284ms (Views: 283.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 01:46:38 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.4ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 171ms (Views: 170.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/news/4" for ::1 at 2016-01-23 01:46:39 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mNews Load (0.1ms)[0m  SELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered news/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 152ms (Views: 151.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 01:46:46 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.1ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 178ms (Views: 177.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news/2" for ::1 at 2016-01-23 01:46:48 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mNews Load (0.1ms)[0m  SELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered news/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 136ms (Views: 135.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 01:46:50 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.2ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 190ms (Views: 188.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/news/4" for ::1 at 2016-01-23 01:46:53 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mNews Load (0.1ms)[0m  SELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered news/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 143ms (Views: 142.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 01:47:00 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.3ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 176ms (Views: 174.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/news/2" for ::1 at 2016-01-23 01:47:02 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mNews Load (0.1ms)[0m  SELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered news/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 137ms (Views: 135.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 01:47:09 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.5ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 181ms (Views: 180.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/news/3" for ::1 at 2016-01-23 01:47:11 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mNews Load (0.1ms)[0m  SELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered news/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 133ms (Views: 132.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 01:47:17 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (2.0ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 189ms (Views: 186.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/news/4" for ::1 at 2016-01-23 01:47:19 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mNews Load (0.2ms)[0m  SELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered news/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 151ms (Views: 149.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/news/4" for ::1 at 2016-01-23 01:48:22 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mNews Load (0.1ms)[0m  [1mSELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered news/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 2211ms (Views: 2210.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/companies.self-5d9ad452eb9adaa7e2ef6d4bf5c0849f9c97b40dc60b483a877fe565844f6c61.css?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/companyhomepage.self-aac9e1bcc4af4d6d890cff431c30dad5503f5c72beb5db21685c438457f106e0.css?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/news.self-380590abd8e1028afdde08effc059b7344ed22ca7a7192a0f4ac04272857e267.css?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/products.self-07889e1f39d3bbac3bab0ef246a2087fce825977282d5c742ebd57ba9e69eabe.css?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/application.self-7c1d3b43bb862717ebaad925be0ee6c4e6c8b76399cc953ba01e8465c4f10b39.css?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/barcodes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/companyhomepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/news.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/application.self-28b8bcf1b1206f462c9d077ae76194d760ca013424ede9763c18a38089bf0002.js?body=1" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/LOGO-1fc187b06a83611f7cab3f0046ea0043f1039e01757463e68a4ad4786b132d1f.png" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/title-5fd9907c4a0cbc9bd7f8ea9118524e807291edf67ebf7320a6bf66c51354a848.png" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/floor-35211001e6b5514be681b3136276a88ac33f906f39fa29785983a2c675035f25.png" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/evil-5d77f0b48b009557a1f5fa65797c7fdcb549d977c8c9b130e31102b57d70ea53.png" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/pudding-515c3630efdc5e6cbfe3d4326ea21ba9e66a1ce9e493e0c72fd13d502dae3e4c.png" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/angel-5e13e7b45edafb05eb32b640a37d2a1908d63730d4dfba83fd915cb9ee06d604.png" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/c-e640b6b699b0eaaf607c0107da6dc1c0432a46954ee7bd86aed1190274f80a85.png" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/assets/tree-5bf2933d34d6e299be14fba844c5ed246e686125751d14b0d7c70dd47656a80d.png" for ::1 at 2016-01-23 01:48:24 +0800
+
+
+Started GET "/news" for ::1 at 2016-01-23 01:48:27 +0800
+Processing by NewsController#index as HTML
+  [1m[35mNews Load (0.3ms)[0m  SELECT "news".* FROM "news"
+  Rendered news/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 193ms (Views: 192.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/news/3" for ::1 at 2016-01-23 01:48:28 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mNews Load (0.1ms)[0m  [1mSELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered news/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 144ms (Views: 143.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 01:48:30 +0800
+Processing by NewsController#index as HTML
+  [1m[35mNews Load (0.3ms)[0m  SELECT "news".* FROM "news"
+  Rendered news/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 158ms (Views: 157.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/news/2" for ::1 at 2016-01-23 01:48:31 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mNews Load (0.3ms)[0m  [1mSELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered news/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 151ms (Views: 148.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 01:48:35 +0800
+Processing by NewsController#index as HTML
+  [1m[35mNews Load (0.2ms)[0m  SELECT "news".* FROM "news"
+  Rendered news/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 202ms (Views: 200.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/news/new" for ::1 at 2016-01-23 01:48:58 +0800
+Processing by NewsController#new as HTML
+  Rendered news/_form.html.erb (2.4ms)
+  Rendered news/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 172ms (Views: 171.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/news" for ::1 at 2016-01-23 01:50:29 +0800
+Processing by NewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Lz6SJTXBD50X8g8pKXZ51xObWuEm7kNqGQIEZXixmbLYD4ucS/59McjSU9aVqPnnStkbaddSJzL4oAYqGDbvxQ==", "news"=>{"title"=>"過期食材臘腸、魚子醬 疑供應知名餐廳", "content"=>"喜歡吃臘肉的民眾注意了，鮮洋食品公司位於台南市德安百貨14樓倉庫，被查獲疑似以逾期的豬肉（9,823公斤）、製成品臘腸25箱及逾期冷凍生鱈魚卵（3,870公斤）、製成品魚子醬1,620罐等，疑供應給百貨公司內的大大茶樓以及上閤屋等餐廳，台南市衛生局已封存整間倉庫，避免產品再流出。\r\n\r\n接獲民眾檢舉，南市衛生局18日下午會同衛福部食品藥物管理署南區管理中心、市調處及檢調單位前往德安百貨14樓倉庫查察，現場查獲大量逾期食品。截至晚間11時共清點出3項逾期成品（魚子醬1,620罐、臘腸25箱及熟魚卵15箱）、另2項逾期原料包括梅花豬肉893箱（11公斤／箱）及冷凍生鱈魚卵172箱（22.5公斤／箱），除全數封存外，人員徹夜持續清點各項原料及產品。\r\n高市衛生局19日也配合查察轄區內2間倉庫及3家餐飲業者，於仁武物流中心查獲涉逾期產品2項冷凍鰈魚（多寶魚）計2,100公斤、義式冰淇淋計640公升，予以封存待銷毀。\r\n\r\n經查台北市鮮洋食品股份有限公司購入逾期食品，直接運送至位於德安百貨的台南倉庫存放及改製，其冷凍生鱈魚卵原料來源為台北市姮興開發股份有限公司、梅花豬肉原料來源為台北市福有企業有限公司；南市衛生局並通報台北市衛生局，追蹤上述3家公司其下游流向及數量。\r\n\r\n鮮洋食品以逾期豬肉製作臘肉銷售，以逾期生鱈魚卵製做成魚子醬，南市衛生局已釐清其成品的下游業者，包括精彩火鍋、大大茶樓、上闔屋及威靈頓等知名餐廳疑已淪陷，由新北市衛生局、台中市衛生局及高雄市衛生局協助將違規產品下架封存。", "nimg"=>#<ActionDispatch::Http::UploadedFile:0x007ff5b7434338 @tempfile=#<Tempfile:/var/folders/x5/1y8r01h50n1dpqq41zn4mt880000gn/T/RackMultipart20160123-80120-28tg0q.jpg>, @original_filename="news4.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"news[nimg]\"; filename=\"news4.jpg\"\r\nContent-Type: image/jpeg\r\n">, "postdate"=>"2016/01/20", "from"=>"大紀元", "url"=>"http://www.epochtimes.com.tw/n155228/%E9%81%8E%E6%9C%9F%E9%A3%9F%E6%9D%90%E8%87%98%E8%85%B8%E3%80%81%E9%AD%9A%E5%AD%90%E9%86%AC-%E7%96%91%E4%BE%9B%E6%87%89%E7%9F%A5%E5%90%8D%E9%A4%90%E5%BB%B3.html"}, "commit"=>"Create News"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "news" ("title", "content", "nimg", "postdate", "from", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["title", "過期食材臘腸、魚子醬 疑供應知名餐廳"], ["content", "喜歡吃臘肉的民眾注意了，鮮洋食品公司位於台南市德安百貨14樓倉庫，被查獲疑似以逾期的豬肉（9,823公斤）、製成品臘腸25箱及逾期冷凍生鱈魚卵（3,870公斤）、製成品魚子醬1,620罐等，疑供應給百貨公司內的大大茶樓以及上閤屋等餐廳，台南市衛生局已封存整間倉庫，避免產品再流出。\r\n\r\n接獲民眾檢舉，南市衛生局18日下午會同衛福部食品藥物管理署南區管理中心、市調處及檢調單位前往德安百貨14樓倉庫查察，現場查獲大量逾期食品。截至晚間11時共清點出3項逾期成品（魚子醬1,620罐、臘腸25箱及熟魚卵15箱）、另2項逾期原料包括梅花豬肉893箱（11公斤／箱）及冷凍生鱈魚卵172箱（22.5公斤／箱），除全數封存外，人員徹夜持續清點各項原料及產品。\r\n高市衛生局19日也配合查察轄區內2間倉庫及3家餐飲業者，於仁武物流中心查獲涉逾期產品2項冷凍鰈魚（多寶魚）計2,100公斤、義式冰淇淋計640公升，予以封存待銷毀。\r\n\r\n經查台北市鮮洋食品股份有限公司購入逾期食品，直接運送至位於德安百貨的台南倉庫存放及改製，其冷凍生鱈魚卵原料來源為台北市姮興開發股份有限公司、梅花豬肉原料來源為台北市福有企業有限公司；南市衛生局並通報台北市衛生局，追蹤上述3家公司其下游流向及數量。\r\n\r\n鮮洋食品以逾期豬肉製作臘肉銷售，以逾期生鱈魚卵製做成魚子醬，南市衛生局已釐清其成品的下游業者，包括精彩火鍋、大大茶樓、上闔屋及威靈頓等知名餐廳疑已淪陷，由新北市衛生局、台中市衛生局及高雄市衛生局協助將違規產品下架封存。"], ["nimg", "news4.jpg"], ["postdate", "2016/01/20"], ["from", "大紀元"], ["url", "http://www.epochtimes.com.tw/n155228/%E9%81%8E%E6%9C%9F%E9%A3%9F%E6%9D%90%E8%87%98%E8%85%B8%E3%80%81%E9%AD%9A%E5%AD%90%E9%86%AC-%E7%96%91%E4%BE%9B%E6%87%89%E7%9F%A5%E5%90%8D%E9%A4%90%E5%BB%B3.html"], ["created_at", "2016-01-22 17:50:29.318496"], ["updated_at", "2016-01-22 17:50:29.318496"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/news/5
+Completed 302 Found in 194ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/news/5" for ::1 at 2016-01-23 01:50:29 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mNews Load (0.1ms)[0m  SELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered news/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 181ms (Views: 179.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 01:50:35 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.2ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 208ms (Views: 205.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/news/new" for ::1 at 2016-01-23 01:51:19 +0800
+Processing by NewsController#new as HTML
+  Rendered news/_form.html.erb (3.1ms)
+  Rendered news/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 181ms (Views: 179.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/news" for ::1 at 2016-01-23 01:53:10 +0800
+Processing by NewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FriP7CrlmOWHMMlWYVrQl7ZOF9wKnYA0Igq20yjH5CDhiZZVVNrqSVgQlandhFCn7wxWVPsh5GzDqLScSECSVw==", "news"=>{"title"=>"黑心食品禁不絕　有毒茶葉充上品", "content"=>"今時今日，食安危機無日無之，黑心食品氾濫成災，柴米油鹽醬醋茶幾乎無一幸免，大陸及台灣固然雙雙淪陷，香港亦難以獨善其身。<br>\r\n兩岸黑心食品五花八門，無奇不有，從本報連日來的報道可見一斑。以茶葉為例，除了曾被消委會及環保團體驗出含有重金屬及殘餘農藥超標，最近更被揭發多種造假手法。有內地奸商為了抬高茶葉售價，不惜用有毒物質為茶葉「上妝」，例如用孔雀石綠為已變黃或滯銷綠茶增色；又或者以鐵茶壺沖茶，令銹迹加深茶的顏色；有的更在已泡過的加工烘乾二手茶葉噴灑銅銹水充當陳年茶葉，令人咋舌。<br>\r\n本報記者到廣州一間茶店視察，店員推銷來歷不明的冒牌茶餅，更不諱言價錢廉宜，不可能是真貨，可見銷售假劣毒茶葉已到了明目張膽的地步。事實上，內地水源重金屬污染嚴重，茶園不可能不受污染。正如醫生指出，長期飲用含重金屬及殘餘農藥的毒茶會導致慢性中毒，影響肝腎，甚至致癌。尤其是泡茶時茶葉會經水令人體直接吸收，愈泡得久，吸收愈多，危害愈大。而令港人聞之色變的致癌物孔雀石綠，直接飲用的遺害較進食孔雀石綠海產更大。<br>\r\n見微知著，在問題食品氾濫成災的今天，毒茶葉只是冰山一角而已。本報連日專題報道的毒瑤柱、毒海味、化學豉油、化學蠔油、工業鹽、工業醋、工業酒精充當食材等等，在內地比比皆是，證明黑心食品已到了無孔不入的地步。以廣受港人喜愛的瑤柱來說，本港主要出售日本貨，部分則來自內地大連及青島，由於內地水域受重金屬污染，業內人士坦言「重金屬瑤柱」在港並非鮮見。有些不法商人甚至用雙氧水及硫磺浸泡海味，加上化學豉油等「工業食材」幾可亂真，消費者吃進肚裏，跟慢性自殺並無二致。即使是日本瑤柱，也可能受到核輻射污染，未必安全可靠。<br>\r\n有人生動地形容，中國人在餐桌上完成了化學掃盲，這並非笑話，放眼全世界，沒有一個民族像中國人這樣自相殘殺，自我滅絕。<br>\r\n城門失火，殃及池魚，港府把關不力，後知後覺，問題食品長驅直入，食品安全面臨嚴峻挑戰。正如立法會議員指出，對比數量龐大的進口食品，港府的抽查比例僅佔少數，出現漏網之魚何足為奇；加上本港食安標準寬鬆，不僅達不到歐盟標準，有些時候甚至連內地或台灣標準都不如，更是危機重重。例如去年台灣爆發農藥茶葉風波，香港也受到波及，豈料部分被台灣列為有害的農藥竟不在港府檢測之列，證明本港標準過時，漏洞處處，市民健康根本沒有保障。<br>\r\n說來實在可悲，當今中國物產豐富，國人理應衣食無憂，可惜經過數十年掠奪式發展，導致環境嚴重污染，加上官場貪污腐敗，社會道德淪喪，簡直到了無物不毒、無食不憂的地步。港府一味指望內地當局解決問題，對食物安全放任自流，不僅是緣木求魚，簡直是不負責任。", "postdate"=>"2016/01/03", "from"=>"on.cc東網專訊", "url"=>"http://hk.on.cc/hk/bkn/cnt/commentary/20160103/bkn-20160103000831898-0103_00832_001.html"}, "commit"=>"Create News"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "news" ("title", "content", "postdate", "from", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "黑心食品禁不絕　有毒茶葉充上品"], ["content", "今時今日，食安危機無日無之，黑心食品氾濫成災，柴米油鹽醬醋茶幾乎無一幸免，大陸及台灣固然雙雙淪陷，香港亦難以獨善其身。<br>\r\n兩岸黑心食品五花八門，無奇不有，從本報連日來的報道可見一斑。以茶葉為例，除了曾被消委會及環保團體驗出含有重金屬及殘餘農藥超標，最近更被揭發多種造假手法。有內地奸商為了抬高茶葉售價，不惜用有毒物質為茶葉「上妝」，例如用孔雀石綠為已變黃或滯銷綠茶增色；又或者以鐵茶壺沖茶，令銹迹加深茶的顏色；有的更在已泡過的加工烘乾二手茶葉噴灑銅銹水充當陳年茶葉，令人咋舌。<br>\r\n本報記者到廣州一間茶店視察，店員推銷來歷不明的冒牌茶餅，更不諱言價錢廉宜，不可能是真貨，可見銷售假劣毒茶葉已到了明目張膽的地步。事實上，內地水源重金屬污染嚴重，茶園不可能不受污染。正如醫生指出，長期飲用含重金屬及殘餘農藥的毒茶會導致慢性中毒，影響肝腎，甚至致癌。尤其是泡茶時茶葉會經水令人體直接吸收，愈泡得久，吸收愈多，危害愈大。而令港人聞之色變的致癌物孔雀石綠，直接飲用的遺害較進食孔雀石綠海產更大。<br>\r\n見微知著，在問題食品氾濫成災的今天，毒茶葉只是冰山一角而已。本報連日專題報道的毒瑤柱、毒海味、化學豉油、化學蠔油、工業鹽、工業醋、工業酒精充當食材等等，在內地比比皆是，證明黑心食品已到了無孔不入的地步。以廣受港人喜愛的瑤柱來說，本港主要出售日本貨，部分則來自內地大連及青島，由於內地水域受重金屬污染，業內人士坦言「重金屬瑤柱」在港並非鮮見。有些不法商人甚至用雙氧水及硫磺浸泡海味，加上化學豉油等「工業食材」幾可亂真，消費者吃進肚裏，跟慢性自殺並無二致。即使是日本瑤柱，也可能受到核輻射污染，未必安全可靠。<br>\r\n有人生動地形容，中國人在餐桌上完成了化學掃盲，這並非笑話，放眼全世界，沒有一個民族像中國人這樣自相殘殺，自我滅絕。<br>\r\n城門失火，殃及池魚，港府把關不力，後知後覺，問題食品長驅直入，食品安全面臨嚴峻挑戰。正如立法會議員指出，對比數量龐大的進口食品，港府的抽查比例僅佔少數，出現漏網之魚何足為奇；加上本港食安標準寬鬆，不僅達不到歐盟標準，有些時候甚至連內地或台灣標準都不如，更是危機重重。例如去年台灣爆發農藥茶葉風波，香港也受到波及，豈料部分被台灣列為有害的農藥竟不在港府檢測之列，證明本港標準過時，漏洞處處，市民健康根本沒有保障。<br>\r\n說來實在可悲，當今中國物產豐富，國人理應衣食無憂，可惜經過數十年掠奪式發展，導致環境嚴重污染，加上官場貪污腐敗，社會道德淪喪，簡直到了無物不毒、無食不憂的地步。港府一味指望內地當局解決問題，對食物安全放任自流，不僅是緣木求魚，簡直是不負責任。"], ["postdate", "2016/01/03"], ["from", "on.cc東網專訊"], ["url", "http://hk.on.cc/hk/bkn/cnt/commentary/20160103/bkn-20160103000831898-0103_00832_001.html"], ["created_at", "2016-01-22 17:53:10.737382"], ["updated_at", "2016-01-22 17:53:10.737382"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/news/6
+Completed 302 Found in 5ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/news/6" for ::1 at 2016-01-23 01:53:10 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mNews Load (0.1ms)[0m  [1mSELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered news/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 164ms (Views: 162.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 01:54:16 +0800
+Processing by NewsController#index as HTML
+  [1m[35mNews Load (0.2ms)[0m  SELECT "news".* FROM "news"
+  Rendered news/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 150ms (Views: 149.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/news/6/edit" for ::1 at 2016-01-23 01:54:23 +0800
+Processing by NewsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mNews Load (0.2ms)[0m  [1mSELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered news/_form.html.erb (2.5ms)
+  Rendered news/edit.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 174ms (Views: 172.6ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/news/6" for ::1 at 2016-01-23 01:55:11 +0800
+Processing by NewsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fSJM3leOS4ULYGIgHl1CcTIk/kEjDGQXfi468Nz8UQ2KE1VnKbE5KdRAPt+ig8JBa2a/ydKwAE+fjDi/vHsneg==", "news"=>{"title"=>"黑心食品禁不絕　有毒茶葉充上品", "content"=>"今時今日，食安危機無日無之，黑心食品氾濫成災，柴米油鹽醬醋茶幾乎無一幸免，大陸及台灣固然雙雙淪陷，香港亦難以獨善其身。\r\n兩岸黑心食品五花八門，無奇不有，從本報連日來的報道可見一斑。以茶葉為例，除了曾被消委會及環保團體驗出含有重金屬及殘餘農藥超標，最近更被揭發多種造假手法。有內地奸商為了抬高茶葉售價，不惜用有毒物質為茶葉「上妝」，例如用孔雀石綠為已變黃或滯銷綠茶增色；又或者以鐵茶壺沖茶，令銹迹加深茶的顏色；有的更在已泡過的加工烘乾二手茶葉噴灑銅銹水充當陳年茶葉，令人咋舌。\r\n本報記者到廣州一間茶店視察，店員推銷來歷不明的冒牌茶餅，更不諱言價錢廉宜，不可能是真貨，可見銷售假劣毒茶葉已到了明目張膽的地步。事實上，內地水源重金屬污染嚴重，茶園不可能不受污染。正如醫生指出，長期飲用含重金屬及殘餘農藥的毒茶會導致慢性中毒，影響肝腎，甚至致癌。尤其是泡茶時茶葉會經水令人體直接吸收，愈泡得久，吸收愈多，危害愈大。而令港人聞之色變的致癌物孔雀石綠，直接飲用的遺害較進食孔雀石綠海產更大。\r\n見微知著，在問題食品氾濫成災的今天，毒茶葉只是冰山一角而已。本報連日專題報道的毒瑤柱、毒海味、化學豉油、化學蠔油、工業鹽、工業醋、工業酒精充當食材等等，在內地比比皆是，證明黑心食品已到了無孔不入的地步。以廣受港人喜愛的瑤柱來說，本港主要出售日本貨，部分則來自內地大連及青島，由於內地水域受重金屬污染，業內人士坦言「重金屬瑤柱」在港並非鮮見。有些不法商人甚至用雙氧水及硫磺浸泡海味，加上化學豉油等「工業食材」幾可亂真，消費者吃進肚裏，跟慢性自殺並無二致。即使是日本瑤柱，也可能受到核輻射污染，未必安全可靠。\r\n有人生動地形容，中國人在餐桌上完成了化學掃盲，這並非笑話，放眼全世界，沒有一個民族像中國人這樣自相殘殺，自我滅絕。\r\n城門失火，殃及池魚，港府把關不力，後知後覺，問題食品長驅直入，食品安全面臨嚴峻挑戰。正如立法會議員指出，對比數量龐大的進口食品，港府的抽查比例僅佔少數，出現漏網之魚何足為奇；加上本港食安標準寬鬆，不僅達不到歐盟標準，有些時候甚至連內地或台灣標準都不如，更是危機重重。例如去年台灣爆發農藥茶葉風波，香港也受到波及，豈料部分被台灣列為有害的農藥竟不在港府檢測之列，證明本港標準過時，漏洞處處，市民健康根本沒有保障。\r\n說來實在可悲，當今中國物產豐富，國人理應衣食無憂，可惜經過數十年掠奪式發展，導致環境嚴重污染，加上官場貪污腐敗，社會道德淪喪，簡直到了無物不毒、無食不憂的地步。港府一味指望內地當局解決問題，對食物安全放任自流，不僅是緣木求魚，簡直是不負責任。", "nimg"=>#<ActionDispatch::Http::UploadedFile:0x007ff5b9921510 @tempfile=#<Tempfile:/var/folders/x5/1y8r01h50n1dpqq41zn4mt880000gn/T/RackMultipart20160123-80120-p6gr7d.jpeg>, @original_filename="news5.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"news[nimg]\"; filename=\"news5.jpeg\"\r\nContent-Type: image/jpeg\r\n">, "postdate"=>"2016/01/03", "from"=>"on.cc東網專訊", "url"=>"http://hk.on.cc/hk/bkn/cnt/commentary/20160103/bkn-20160103000831898-0103_00832_001.html"}, "commit"=>"Update News", "id"=>"6"}
+  [1m[35mNews Load (0.2ms)[0m  SELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNews Load (0.1ms)[0m  SELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "news" SET "content" = ?, "nimg" = ?, "updated_at" = ? WHERE "news"."id" = ?[0m  [["content", "今時今日，食安危機無日無之，黑心食品氾濫成災，柴米油鹽醬醋茶幾乎無一幸免，大陸及台灣固然雙雙淪陷，香港亦難以獨善其身。\r\n兩岸黑心食品五花八門，無奇不有，從本報連日來的報道可見一斑。以茶葉為例，除了曾被消委會及環保團體驗出含有重金屬及殘餘農藥超標，最近更被揭發多種造假手法。有內地奸商為了抬高茶葉售價，不惜用有毒物質為茶葉「上妝」，例如用孔雀石綠為已變黃或滯銷綠茶增色；又或者以鐵茶壺沖茶，令銹迹加深茶的顏色；有的更在已泡過的加工烘乾二手茶葉噴灑銅銹水充當陳年茶葉，令人咋舌。\r\n本報記者到廣州一間茶店視察，店員推銷來歷不明的冒牌茶餅，更不諱言價錢廉宜，不可能是真貨，可見銷售假劣毒茶葉已到了明目張膽的地步。事實上，內地水源重金屬污染嚴重，茶園不可能不受污染。正如醫生指出，長期飲用含重金屬及殘餘農藥的毒茶會導致慢性中毒，影響肝腎，甚至致癌。尤其是泡茶時茶葉會經水令人體直接吸收，愈泡得久，吸收愈多，危害愈大。而令港人聞之色變的致癌物孔雀石綠，直接飲用的遺害較進食孔雀石綠海產更大。\r\n見微知著，在問題食品氾濫成災的今天，毒茶葉只是冰山一角而已。本報連日專題報道的毒瑤柱、毒海味、化學豉油、化學蠔油、工業鹽、工業醋、工業酒精充當食材等等，在內地比比皆是，證明黑心食品已到了無孔不入的地步。以廣受港人喜愛的瑤柱來說，本港主要出售日本貨，部分則來自內地大連及青島，由於內地水域受重金屬污染，業內人士坦言「重金屬瑤柱」在港並非鮮見。有些不法商人甚至用雙氧水及硫磺浸泡海味，加上化學豉油等「工業食材」幾可亂真，消費者吃進肚裏，跟慢性自殺並無二致。即使是日本瑤柱，也可能受到核輻射污染，未必安全可靠。\r\n有人生動地形容，中國人在餐桌上完成了化學掃盲，這並非笑話，放眼全世界，沒有一個民族像中國人這樣自相殘殺，自我滅絕。\r\n城門失火，殃及池魚，港府把關不力，後知後覺，問題食品長驅直入，食品安全面臨嚴峻挑戰。正如立法會議員指出，對比數量龐大的進口食品，港府的抽查比例僅佔少數，出現漏網之魚何足為奇；加上本港食安標準寬鬆，不僅達不到歐盟標準，有些時候甚至連內地或台灣標準都不如，更是危機重重。例如去年台灣爆發農藥茶葉風波，香港也受到波及，豈料部分被台灣列為有害的農藥竟不在港府檢測之列，證明本港標準過時，漏洞處處，市民健康根本沒有保障。\r\n說來實在可悲，當今中國物產豐富，國人理應衣食無憂，可惜經過數十年掠奪式發展，導致環境嚴重污染，加上官場貪污腐敗，社會道德淪喪，簡直到了無物不毒、無食不憂的地步。港府一味指望內地當局解決問題，對食物安全放任自流，不僅是緣木求魚，簡直是不負責任。"], ["nimg", "news5.jpeg"], ["updated_at", "2016-01-22 17:55:11.829848"], ["id", 6]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/news/6
+Completed 302 Found in 131ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/news/6" for ::1 at 2016-01-23 01:55:11 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mNews Load (0.1ms)[0m  [1mSELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered news/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 177ms (Views: 175.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 01:55:16 +0800
+Processing by NewsController#index as HTML
+  [1m[35mNews Load (0.8ms)[0m  SELECT "news".* FROM "news"
+  Rendered news/index.html.erb within layouts/application (48.8ms)
+Completed 200 OK in 484ms (Views: 479.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/news/new" for ::1 at 2016-01-23 01:57:50 +0800
+Processing by NewsController#new as HTML
+  Rendered news/_form.html.erb (4.4ms)
+  Rendered news/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 187ms (Views: 185.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/news" for ::1 at 2016-01-23 01:59:24 +0800
+Processing by NewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NjbfMpc/ey2KTTDkA77HkmAlKRp63eYwf5Gk8TPn1AzBB8aL6QAJgVVtbBu/YEeiOWdokothgmieM6a+U2Ciew==", "news"=>{"title"=>"早餐三寶淪黑心食品　餐廳老闆：不敢用了", "content"=>"士林地檢署接獲檢舉，指內湖區一家專門生產熱狗、火腿和培根的代工廠「台全熱狗火腿行」，竟在火腿和培根等加工肉品中，添加非食品級的化學原料亞硝酸鈉、硝酸鈉，賣給北台灣多處夜市及東方美等連鎖早餐店，檢察官黃睦涵今會同北市衛生局人員搜索台全熱狗火腿行，並約談老闆黃金諒等3人到案，晚間複訊後依違反《食品安全衛生管理法》諭令老闆女兒兼會計黃靜芬10萬元交保，老闆和另名黃姓員工則獲請回。買到台全火腿的餐廳老闆大罵：「嚇死了，不敢用了。」\r\n \r\n檢方指出，台全熱狗火腿行販售的加工肉品已流入東方美實業公司、橙果早餐店、雙子星餐廳和YAMI YAMI早餐屋等店，今搜索台全當場查扣到亞硝酸鈉和進出貨單據等，並約談黃姓負責人和兩名員工到案說明，全案擴大偵辦中。根據台北市衛生局公布資料，台全被查獲的違規產品為今年2月28日前產製的火腿及培根產品及9月21日前產製的熱狗產品，總計已回收封存577包，每包重量為1公斤。\r\n \r\n創立已35年的知名雙子星西餐廳，藝人郭子乾、賀一航都曾是座上賓，老闆娘張太太今下午看到新聞報導，才知道自家用的火腿中鏢，已趕緊下架，「嚇死了，不敢用了」。\r\n \r\n張太太說，因丈夫認識台全老闆，餐廳已向台全買火腿買了30年，每個月約買4、5條，加在什錦炒飯內提味，加火腿的話味道比較好。不料台全竟在火腿內添加違法添加物，張太太痛批「我們30幾年老店，商譽經營不容易，要來罵罵他們（台全）。」\r\n \r\n北市衛生局指出，所有餐飲業或食品販售業者，若曾購買台全熱狗火腿行的熱狗、火腿及培根等3項產品，應主動停止製造、加工、販賣並回收，同時應主動通報衛生局清點數量及流向，可至網站查詢（http://health.gov.taipei/）。\r\n \r\n生產非食品級亞硝酸鈉的巴斯夫公司晚間發出聲明，巴斯夫並未與台全公司有業務往來，將會配合政府單位調查，且巴斯夫製造的亞硝酸鈉，外袋上均明顯標示「食用級」和「非食用級」，相關業者須遵守中華民國法令，正確使用。", "nimg"=>#<ActionDispatch::Http::UploadedFile:0x007ff5bac5b478 @tempfile=#<Tempfile:/var/folders/x5/1y8r01h50n1dpqq41zn4mt880000gn/T/RackMultipart20160123-80120-10c7ti8.jpg>, @original_filename="news6.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"news[nimg]\"; filename=\"news6.jpg\"\r\nContent-Type: image/jpeg\r\n">, "postdate"=>"2015/11/18 21:15", "from"=>"蘋果即時", "url"=>"http://www.appledaily.com.tw/realtimenews/article/new/20151118/735383/"}, "commit"=>"Create News"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "news" ("title", "content", "nimg", "postdate", "from", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["title", "早餐三寶淪黑心食品　餐廳老闆：不敢用了"], ["content", "士林地檢署接獲檢舉，指內湖區一家專門生產熱狗、火腿和培根的代工廠「台全熱狗火腿行」，竟在火腿和培根等加工肉品中，添加非食品級的化學原料亞硝酸鈉、硝酸鈉，賣給北台灣多處夜市及東方美等連鎖早餐店，檢察官黃睦涵今會同北市衛生局人員搜索台全熱狗火腿行，並約談老闆黃金諒等3人到案，晚間複訊後依違反《食品安全衛生管理法》諭令老闆女兒兼會計黃靜芬10萬元交保，老闆和另名黃姓員工則獲請回。買到台全火腿的餐廳老闆大罵：「嚇死了，不敢用了。」\r\n \r\n檢方指出，台全熱狗火腿行販售的加工肉品已流入東方美實業公司、橙果早餐店、雙子星餐廳和YAMI YAMI早餐屋等店，今搜索台全當場查扣到亞硝酸鈉和進出貨單據等，並約談黃姓負責人和兩名員工到案說明，全案擴大偵辦中。根據台北市衛生局公布資料，台全被查獲的違規產品為今年2月28日前產製的火腿及培根產品及9月21日前產製的熱狗產品，總計已回收封存577包，每包重量為1公斤。\r\n \r\n創立已35年的知名雙子星西餐廳，藝人郭子乾、賀一航都曾是座上賓，老闆娘張太太今下午看到新聞報導，才知道自家用的火腿中鏢，已趕緊下架，「嚇死了，不敢用了」。\r\n \r\n張太太說，因丈夫認識台全老闆，餐廳已向台全買火腿買了30年，每個月約買4、5條，加在什錦炒飯內提味，加火腿的話味道比較好。不料台全竟在火腿內添加違法添加物，張太太痛批「我們30幾年老店，商譽經營不容易，要來罵罵他們（台全）。」\r\n \r\n北市衛生局指出，所有餐飲業或食品販售業者，若曾購買台全熱狗火腿行的熱狗、火腿及培根等3項產品，應主動停止製造、加工、販賣並回收，同時應主動通報衛生局清點數量及流向，可至網站查詢（http://health.gov.taipei/）。\r\n \r\n生產非食品級亞硝酸鈉的巴斯夫公司晚間發出聲明，巴斯夫並未與台全公司有業務往來，將會配合政府單位調查，且巴斯夫製造的亞硝酸鈉，外袋上均明顯標示「食用級」和「非食用級」，相關業者須遵守中華民國法令，正確使用。"], ["nimg", "news6.jpg"], ["postdate", "2015/11/18 21:15"], ["from", "蘋果即時"], ["url", "http://www.appledaily.com.tw/realtimenews/article/new/20151118/735383/"], ["created_at", "2016-01-22 17:59:25.091245"], ["updated_at", "2016-01-22 17:59:25.091245"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/news/7
+Completed 302 Found in 147ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/news/7" for ::1 at 2016-01-23 01:59:25 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mNews Load (0.2ms)[0m  SELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered news/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 227ms (Views: 224.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 01:59:37 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.2ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 200ms (Views: 199.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/news/7" for ::1 at 2016-01-23 01:59:39 +0800
+Processing by NewsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mNews Load (0.1ms)[0m  SELECT  "news".* FROM "news" WHERE "news"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered news/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 167ms (Views: 165.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 02:00:23 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.7ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 203ms (Views: 201.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 02:00:23 +0800
+
+
+Started GET "/assets/companies.self-5d9ad452eb9adaa7e2ef6d4bf5c0849f9c97b40dc60b483a877fe565844f6c61.css?body=1" for ::1 at 2016-01-23 02:00:23 +0800
+
+
+Started GET "/assets/companyhomepage.self-aac9e1bcc4af4d6d890cff431c30dad5503f5c72beb5db21685c438457f106e0.css?body=1" for ::1 at 2016-01-23 02:00:23 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 02:00:23 +0800
+
+
+Started GET "/assets/application.self-7c1d3b43bb862717ebaad925be0ee6c4e6c8b76399cc953ba01e8465c4f10b39.css?body=1" for ::1 at 2016-01-23 02:00:23 +0800
+
+
+Started GET "/assets/news.self-380590abd8e1028afdde08effc059b7344ed22ca7a7192a0f4ac04272857e267.css?body=1" for ::1 at 2016-01-23 02:00:23 +0800
+
+
+Started GET "/assets/products.self-07889e1f39d3bbac3bab0ef246a2087fce825977282d5c742ebd57ba9e69eabe.css?body=1" for ::1 at 2016-01-23 02:00:23 +0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/barcodes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/companyhomepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/news.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/application.self-28b8bcf1b1206f462c9d077ae76194d760ca013424ede9763c18a38089bf0002.js?body=1" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/LOGO-1fc187b06a83611f7cab3f0046ea0043f1039e01757463e68a4ad4786b132d1f.png" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/floor-35211001e6b5514be681b3136276a88ac33f906f39fa29785983a2c675035f25.png" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/tree-5bf2933d34d6e299be14fba844c5ed246e686125751d14b0d7c70dd47656a80d.png" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/angel-5e13e7b45edafb05eb32b640a37d2a1908d63730d4dfba83fd915cb9ee06d604.png" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/evil-5d77f0b48b009557a1f5fa65797c7fdcb549d977c8c9b130e31102b57d70ea53.png" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/c-e640b6b699b0eaaf607c0107da6dc1c0432a46954ee7bd86aed1190274f80a85.png" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/title-5fd9907c4a0cbc9bd7f8ea9118524e807291edf67ebf7320a6bf66c51354a848.png" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/pudding-515c3630efdc5e6cbfe3d4326ea21ba9e66a1ce9e493e0c72fd13d502dae3e4c.png" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/assets/icon_-40152a4ad5b5f574d5b4537d77718f4de17dd97ca6f31a91fa0c61003ab50fa2.png" for ::1 at 2016-01-23 02:00:24 +0800
+
+
+Started GET "/" for ::1 at 2016-01-23 02:00:26 +0800
+Processing by CompanyhomepageController#index as HTML
+  Rendered companyhomepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 147ms (Views: 146.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for ::1 at 2016-01-23 02:00:26 +0800
+
+
+Started GET "/products" for ::1 at 2016-01-23 02:00:33 +0800
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.9ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (108.1ms)
+Completed 200 OK in 352ms (Views: 351.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 02:00:40 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.2ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 148ms (Views: 146.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-23 02:00:44 +0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.2ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 212ms (Views: 210.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 02:00:50 +0800
+Processing by NewsController#index as HTML
+  [1m[36mNews Load (0.2ms)[0m  [1mSELECT "news".* FROM "news"[0m
+  Rendered news/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 201ms (Views: 198.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for ::1 at 2016-01-23 02:00:51 +0800
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (63.1ms)
+Completed 200 OK in 203ms (Views: 201.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-23 02:00:52 +0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.2ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 160ms (Views: 159.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-01-23 02:01:30 +0800
+Processing by CompanyhomepageController#index as HTML
+  Rendered companyhomepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 175ms (Views: 174.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/companies.self-5d9ad452eb9adaa7e2ef6d4bf5c0849f9c97b40dc60b483a877fe565844f6c61.css?body=1" for ::1 at 2016-01-23 02:01:31 +0800
+
+
+Started GET "/assets/news.self-380590abd8e1028afdde08effc059b7344ed22ca7a7192a0f4ac04272857e267.css?body=1" for ::1 at 2016-01-23 02:01:31 +0800
+
+
+Started GET "/assets/companyhomepage.self-aac9e1bcc4af4d6d890cff431c30dad5503f5c72beb5db21685c438457f106e0.css?body=1" for ::1 at 2016-01-23 02:01:31 +0800
+
+
+Started GET "/assets/application.self-7c1d3b43bb862717ebaad925be0ee6c4e6c8b76399cc953ba01e8465c4f10b39.css?body=1" for ::1 at 2016-01-23 02:01:31 +0800
+
+
+Started GET "/" for ::1 at 2016-01-23 02:03:09 +0800
+Processing by CompanyhomepageController#index as HTML
+  Rendered companyhomepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2157ms (Views: 2156.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/news.self-380590abd8e1028afdde08effc059b7344ed22ca7a7192a0f4ac04272857e267.css?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/companies.self-5d9ad452eb9adaa7e2ef6d4bf5c0849f9c97b40dc60b483a877fe565844f6c61.css?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/companyhomepage.self-aac9e1bcc4af4d6d890cff431c30dad5503f5c72beb5db21685c438457f106e0.css?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/application.self-26b2e59428444e9d37b9b1e284c900ef14143cb9b42fd8fac02bd82074c7bddc.css?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/products.self-07889e1f39d3bbac3bab0ef246a2087fce825977282d5c742ebd57ba9e69eabe.css?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/companyhomepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/barcodes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/news.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/application.self-28b8bcf1b1206f462c9d077ae76194d760ca013424ede9763c18a38089bf0002.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/floor-35211001e6b5514be681b3136276a88ac33f906f39fa29785983a2c675035f25.png" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/angel-5e13e7b45edafb05eb32b640a37d2a1908d63730d4dfba83fd915cb9ee06d604.png" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/LOGO-1fc187b06a83611f7cab3f0046ea0043f1039e01757463e68a4ad4786b132d1f.png" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/pudding-515c3630efdc5e6cbfe3d4326ea21ba9e66a1ce9e493e0c72fd13d502dae3e4c.png" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/title-5fd9907c4a0cbc9bd7f8ea9118524e807291edf67ebf7320a6bf66c51354a848.png" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/evil-5d77f0b48b009557a1f5fa65797c7fdcb549d977c8c9b130e31102b57d70ea53.png" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-c812ddc9e475d3e65d68a6b3b589ce598a2a5babb7afc55477d59215c4a38a40.woff?v=4.5.0" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/tree-5bf2933d34d6e299be14fba844c5ed246e686125751d14b0d7c70dd47656a80d.png" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/assets/c-e640b6b699b0eaaf607c0107da6dc1c0432a46954ee7bd86aed1190274f80a85.png" for ::1 at 2016-01-23 02:03:12 +0800
+
+
+Started GET "/" for ::1 at 2016-01-23 02:04:28 +0800
+Processing by CompanyhomepageController#index as HTML
+  Rendered companyhomepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2576ms (Views: 2575.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/companies.self-5d9ad452eb9adaa7e2ef6d4bf5c0849f9c97b40dc60b483a877fe565844f6c61.css?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/companyhomepage.self-aac9e1bcc4af4d6d890cff431c30dad5503f5c72beb5db21685c438457f106e0.css?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/products.self-07889e1f39d3bbac3bab0ef246a2087fce825977282d5c742ebd57ba9e69eabe.css?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/news.self-380590abd8e1028afdde08effc059b7344ed22ca7a7192a0f4ac04272857e267.css?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/application.self-8de7ad032ed9c840406c0a698a04464f7de16317d08658b4794a51a160a27874.css?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/news.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/barcodes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/companyhomepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-23 02:04:30 +0800
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/application.self-28b8bcf1b1206f462c9d077ae76194d760ca013424ede9763c18a38089bf0002.js?body=1" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/pudding-515c3630efdc5e6cbfe3d4326ea21ba9e66a1ce9e493e0c72fd13d502dae3e4c.png" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/evil-5d77f0b48b009557a1f5fa65797c7fdcb549d977c8c9b130e31102b57d70ea53.png" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-c812ddc9e475d3e65d68a6b3b589ce598a2a5babb7afc55477d59215c4a38a40.woff?v=4.5.0" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/LOGO-1fc187b06a83611f7cab3f0046ea0043f1039e01757463e68a4ad4786b132d1f.png" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/floor-35211001e6b5514be681b3136276a88ac33f906f39fa29785983a2c675035f25.png" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/tree-5bf2933d34d6e299be14fba844c5ed246e686125751d14b0d7c70dd47656a80d.png" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/angel-5e13e7b45edafb05eb32b640a37d2a1908d63730d4dfba83fd915cb9ee06d604.png" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/title-5fd9907c4a0cbc9bd7f8ea9118524e807291edf67ebf7320a6bf66c51354a848.png" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/assets/c-e640b6b699b0eaaf607c0107da6dc1c0432a46954ee7bd86aed1190274f80a85.png" for ::1 at 2016-01-23 02:04:31 +0800
+
+
+Started GET "/" for ::1 at 2016-01-23 02:05:42 +0800
+Processing by CompanyhomepageController#index as HTML
+  Rendered companyhomepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2517ms (Views: 2516.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 02:05:44 +0800
+
+
+Started GET "/assets/companyhomepage.self-aac9e1bcc4af4d6d890cff431c30dad5503f5c72beb5db21685c438457f106e0.css?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/products.self-07889e1f39d3bbac3bab0ef246a2087fce825977282d5c742ebd57ba9e69eabe.css?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/news.self-380590abd8e1028afdde08effc059b7344ed22ca7a7192a0f4ac04272857e267.css?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/companies.self-5d9ad452eb9adaa7e2ef6d4bf5c0849f9c97b40dc60b483a877fe565844f6c61.css?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/application.self-35e7f1825220270f634454f6bc96d9d09a71826c19759f371e599fd6890e26b3.css?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/news.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/barcodes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/companyhomepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/application.self-28b8bcf1b1206f462c9d077ae76194d760ca013424ede9763c18a38089bf0002.js?body=1" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/LOGO-1fc187b06a83611f7cab3f0046ea0043f1039e01757463e68a4ad4786b132d1f.png" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/floor-35211001e6b5514be681b3136276a88ac33f906f39fa29785983a2c675035f25.png" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/angel-5e13e7b45edafb05eb32b640a37d2a1908d63730d4dfba83fd915cb9ee06d604.png" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/title-5fd9907c4a0cbc9bd7f8ea9118524e807291edf67ebf7320a6bf66c51354a848.png" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/pudding-515c3630efdc5e6cbfe3d4326ea21ba9e66a1ce9e493e0c72fd13d502dae3e4c.png" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/evil-5d77f0b48b009557a1f5fa65797c7fdcb549d977c8c9b130e31102b57d70ea53.png" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-c812ddc9e475d3e65d68a6b3b589ce598a2a5babb7afc55477d59215c4a38a40.woff?v=4.5.0" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/tree-5bf2933d34d6e299be14fba844c5ed246e686125751d14b0d7c70dd47656a80d.png" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/assets/c-e640b6b699b0eaaf607c0107da6dc1c0432a46954ee7bd86aed1190274f80a85.png" for ::1 at 2016-01-23 02:05:45 +0800
+
+
+Started GET "/companies" for ::1 at 2016-01-23 02:05:54 +0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies"
+  Rendered companies/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 191ms (Views: 190.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products" for ::1 at 2016-01-23 02:05:57 +0800
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (54.1ms)
+Completed 200 OK in 194ms (Views: 193.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/news" for ::1 at 2016-01-23 02:06:01 +0800
+Processing by NewsController#index as HTML
+  [1m[35mNews Load (0.1ms)[0m  SELECT "news".* FROM "news"
+  Rendered news/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 141ms (Views: 140.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-01-23 02:06:07 +0800
+Processing by CompanyhomepageController#index as HTML
+  Rendered companyhomepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 169ms (Views: 168.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/companies" for ::1 at 2016-01-23 02:06:23 +0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  Rendered companies/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 167ms (Views: 166.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-01-23 02:06:26 +0800
+Processing by CompanyhomepageController#index as HTML
+  Rendered companyhomepage/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 248ms (Views: 247.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-23 02:09:20 +0800
+Processing by CompanyhomepageController#index as HTML
+  Rendered companyhomepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 150ms (Views: 150.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/barcodes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/companies.self-5d9ad452eb9adaa7e2ef6d4bf5c0849f9c97b40dc60b483a877fe565844f6c61.css?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/companyhomepage.self-aac9e1bcc4af4d6d890cff431c30dad5503f5c72beb5db21685c438457f106e0.css?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/news.self-380590abd8e1028afdde08effc059b7344ed22ca7a7192a0f4ac04272857e267.css?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/products.self-07889e1f39d3bbac3bab0ef246a2087fce825977282d5c742ebd57ba9e69eabe.css?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/application.self-35e7f1825220270f634454f6bc96d9d09a71826c19759f371e599fd6890e26b3.css?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/news.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/barcodes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/companyhomepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/application.self-28b8bcf1b1206f462c9d077ae76194d760ca013424ede9763c18a38089bf0002.js?body=1" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/LOGO-1fc187b06a83611f7cab3f0046ea0043f1039e01757463e68a4ad4786b132d1f.png" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/title-5fd9907c4a0cbc9bd7f8ea9118524e807291edf67ebf7320a6bf66c51354a848.png" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/pudding-515c3630efdc5e6cbfe3d4326ea21ba9e66a1ce9e493e0c72fd13d502dae3e4c.png" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/evil-5d77f0b48b009557a1f5fa65797c7fdcb549d977c8c9b130e31102b57d70ea53.png" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/angel-5e13e7b45edafb05eb32b640a37d2a1908d63730d4dfba83fd915cb9ee06d604.png" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/floor-35211001e6b5514be681b3136276a88ac33f906f39fa29785983a2c675035f25.png" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-c812ddc9e475d3e65d68a6b3b589ce598a2a5babb7afc55477d59215c4a38a40.woff?v=4.5.0" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/tree-5bf2933d34d6e299be14fba844c5ed246e686125751d14b0d7c70dd47656a80d.png" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/assets/c-e640b6b699b0eaaf607c0107da6dc1c0432a46954ee7bd86aed1190274f80a85.png" for ::1 at 2016-01-23 02:09:20 +0800
+
+
+Started GET "/products" for ::1 at 2016-01-23 02:09:21 +0800
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (57.0ms)
+Completed 200 OK in 227ms (Views: 226.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-01-23 02:13:28 +0800
+Processing by CompanyhomepageController#index as HTML
+  Rendered companyhomepage/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 146ms (Views: 145.6ms | ActiveRecord: 0.0ms)

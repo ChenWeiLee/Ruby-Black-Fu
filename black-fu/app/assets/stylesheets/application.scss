@@ -83,7 +83,9 @@ html, body {
     background-size: contain;
     background-repeat: no-repeat;
     backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
 		transition:all .5s;
+		-webkit-transition:all .5s;
   }
   .img-back {
     position: absolute;
@@ -93,14 +95,19 @@ html, body {
     background-size: contain;
     background-repeat: no-repeat;
     backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
 		transition:all .5s;
 		transform:perspective(1000px)rotateY(180deg);
+		-webkit-transition:all .5s;
+		-webkit-transform:perspective(1000px)rotateY(180deg);
   }
   .flip-img:hover .img-front {
 		transform:perspective(1000px)rotateY(180deg);
+		-webkit-transform:perspective(1000px)rotateY(180deg);
 	}
 	.flip-img:hover .img-back {
 		transform:perspective(1000px)rotateY(360deg);
+		-webkit-transform:perspective(1000px)rotateY(360deg);
 	}
   .pudding-img {
     position: relative;
