@@ -39,32 +39,18 @@ html, body {
   background-image: image-url("title.png");
 }
 .navbar {
-  padding-left: 100px;
+  padding-left: 150px;
+  width: 100%;
   display: inline-block;
-  ul li {
-    float: right;
-    display: inline;
-    // width: 200px;
-    width: 150px;
-    height: 30px;
-    line-height: 30px;
-    // height: 50px;
-    // line-height: 50px;
-    // background-color: #4f9ec1;
-    text-align: center;
-    // font-size: 1.5em;
+  .line-box {
     font-size: 1.2em;
     padding-right: 10px;
     padding-left: 10px;
-
-  }
-  ul li:hover {
-    // background-color: #72abc4;
-    cursor: pointer;
-    font-weight: bolder;
+    .btn {
+      margin-right: 10px;
+    }
   }
   .active {
-    // background-color: #72abc4;
     font-weight: bolder;
   }
 }
