@@ -36,4 +36,11 @@ $(document).ready(function() {
     $('#product-bt').click(function() {
       window.location.href = productPage;
     })
+    $('.img-back').click(function() {
+      $.ajax({
+        type: "POST",
+        url: "/users/sign_out",
+        data: {"_method": "delete"}
+      });
+    });
 });
